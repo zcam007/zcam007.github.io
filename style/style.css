@@ -650,7 +650,7 @@ section {
           background: #E31B6D;
           color: #fff; }
         section:nth-of-type(4) #gallery .mix:nth-child(1) .card {
-          background: url("../img/img1.JPG") center center/cover; }
+          background: url("../img/img1.jpg") center center/cover; }
         section:nth-of-type(4) #gallery .mix:nth-child(2) .card {
           background: url("../img/img2.jpg") center center/cover; }
         section:nth-of-type(4) #gallery .mix:nth-child(3) .card {
