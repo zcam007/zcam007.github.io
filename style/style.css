@@ -204,7 +204,7 @@ body {
 
 nav {
   bottom: 0;
-  left: 10%;
+  left: 0;
   position: absolute;
   height: 50px;
   width: 100%;
@@ -229,7 +229,7 @@ nav {
     height: 0;
     transition: height .3s ease-out; }
     nav .link-wrap.visible {
-      height: 220px; }
+      height: 250px; }
     nav .link-wrap div {
       padding: 12px 20px;
       font-size: 12pt;
@@ -510,7 +510,7 @@ section {
 
       /*Section 3 exp*/
       section:nth-of-type(3) {
-        padding: 130px 0 50px 0;
+        padding: 50px 10px;
         text-align: left; }
         section:nth-of-type(3) .flex.row-gt-sm, section:nth-of-type(3) .flex.wrap {
           align-items: flex-start; }
@@ -527,7 +527,9 @@ section {
           cursor: pointer; }
 
   section:nth-of-type(3) {
-    background: #f5f5f5; }
+    background: #f5f5f5; 
+  
+  }
     section:nth-of-type(3) .container {
       padding: 0; }
     section:nth-of-type(3) .filter-wrap {
@@ -693,7 +695,7 @@ section {
 
       /*section 5 education*/
       section:nth-of-type(5) {
-      padding: 130px 0 100px 0;
+      padding: 70px 0 100px 0;
       text-align: left; }
       section:nth-of-type(5) .flex.row-gt-sm, section:nth-of-type(5) .flex.wrap {
         align-items: flex-start; }
@@ -889,13 +891,13 @@ footer {
     width: 100px; }
 
   .slide, .carousel-wrap {
-    height: 450px; }
+    height: 310px; }
 
   .mdi-chevron-left, .mdi-chevron-right {
     font-size: 25pt !important; }
 
   .modal-wrap .modal {
-    top: -6vh;
+    top: 0px;
     height: initial; }
   .modal-wrap .info-box {
     padding: 35px 60px 90px 25px; }
@@ -933,7 +935,7 @@ footer {
 
   section {
     line-height: 18pt;
-    padding: 100px 0 130px 0; }
+    padding: 100px 0 30px 0; }
     section .container {
       padding: 0 10px; }
     section:nth-of-type(1) .text {
@@ -972,7 +974,7 @@ footer {
     section:nth-of-type(3) #gallery .mix .card {
       height: 300px; }
     section:nth-of-type(4) {
-      padding: 130px 0 10px 0; }
+      padding: 70px 0 10px 0; }
       section:nth-of-type(4) .label {
         line-height: 22pt;
         font-size: 16pt; }

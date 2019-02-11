@@ -48,8 +48,8 @@ $(function() {
     // Link Highlighting
     if (pos2 > $('#home').offset().top)       { highlightLink('home'); }
     if (pos2 > $('#about').offset().top)      { highlightLink('about'); }
-    if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
     if (pos2 > $('#wrkexp').offset().top)       { highlightLink('wrkexp'); }
+    if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
     if (pos2 > $('#education').offset().top)       { highlightLink('education'); }
     if (pos2 > $('#contact').offset().top ||
         pos + $(window).height() === $(document).height()) {
