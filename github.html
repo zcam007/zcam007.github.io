@@ -1,16 +1,18 @@
 <html>
 
 <head>
-	<script type="text/javascript">
+	
+</head>
+<body>
+<p id="hello"></p>
+
+</body>
+
+<script type="text/javascript">
 	const urlParams = new URLSearchParams(window.location.search);
 	const myParam = urlParams.get('code');
 	document.getElementById('hello').innerHTML=myParam;
 	console.log(myParam);
 	
 	</script>
-</head>
-<body>
-<p id="hello"></p>
-
-</body>
 </html>
