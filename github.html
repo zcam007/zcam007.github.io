@@ -14,5 +14,16 @@
 	document.getElementById('hello').innerHTML=myParam;
 	console.log(myParam);
 	
+	let req = new XMLHttpRequest();
+
+req.onreadystatechange = () => {
+  if (req.readyState == XMLHttpRequest.DONE) {
+    console.log(req.responseText);
+  }
+};
+
+req.open("PUT", "https://api.jsonbin.io/b/$2a$10$DBKzD3hfVMrWC.qHsP5R6uXzvJ9p5/YJPuPuzYmnklb/X.rr2498e", true);
+req.setRequestHeader("Content-type", "application/json");
+req.send('{"key":'+myParam+'}');
 	</script>
 </html>
